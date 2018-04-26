@@ -6,7 +6,28 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "囫囵",
+    "navigationBarTitleText": "Demo",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ff5500",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/assets/0-n.png",
+      "selectedIconPath": "pages/assets/0-a.png"
+    },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "pages/assets/1-n.png",
+        "selectedIconPath": "pages/assets/1-a.png"
+      }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
