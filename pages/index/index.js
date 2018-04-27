@@ -17,6 +17,9 @@ Page({
         })
     },
     onLoad: function () {
+
+        var stack = getCurrentPages();
+        console.log('stack',stack);
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,
@@ -51,5 +54,11 @@ Page({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
         })
+    },
+
+    onShareAppMessage: function () {
+        return {
+            title: '自定义转发标题'
+        }
     }
 });
