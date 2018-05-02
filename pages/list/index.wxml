@@ -1,5 +1,5 @@
 <view class="list" wx:for="{{listItems}}" wx:key="index">
 
-    <view class="list-item">{{item.name}}</view>
+    <view class="list-item" bindtap="gotoDetail" data-url="{{item.url}}">{{item.name}}</view>
 
 </view>

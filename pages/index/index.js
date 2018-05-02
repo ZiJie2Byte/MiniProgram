@@ -4,7 +4,7 @@ const app = getApp();
 
 Page({
     data: {
-        motto: 'Hello World',
+        motto: '小程序示例',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -18,8 +18,6 @@ Page({
     },
     onLoad: function () {
 
-        var stack = getCurrentPages();
-        console.log('stack',stack);
         if (app.globalData.userInfo) {
             this.setData({
                 userInfo: app.globalData.userInfo,
