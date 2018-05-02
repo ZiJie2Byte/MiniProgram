@@ -31,7 +31,7 @@ const LIST_DATA = [
     {
         id: 2,
         name: "swiper",
-        url: "/pages/components/swiper"
+        url: "/pages/components/swiper/index"
     },
     {
         id: 3,

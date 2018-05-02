@@ -5,6 +5,7 @@
     "pages/list/index",
     "pages/components/view/index",
     "pages/components/scrollview/index",
+    "pages/components/swiper/index",
     "pages/components/canvas/index"
   ],
   "window": {
