@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/list/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,11 +24,16 @@
         "text": "日志",
         "iconPath": "pages/assets/1-n.png",
         "selectedIconPath": "pages/assets/1-a.png"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "组件",
+        "iconPath": "pages/assets/2-n.png",
+        "selectedIconPath": "pages/assets/2-a.png"
       }]
   },
   "networkTimeout": {
     "request": 10000,
     "downloadFile": 10000
-  },
-  "debug": true
+  }
 }

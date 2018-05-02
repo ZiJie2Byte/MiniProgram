@@ -1,0 +1,5 @@
+<view class="list" wx:for="{{listItems}}" wx:key="index">
+
+    <view class="list-item">{{item.name}}</view>
+
+</view>
