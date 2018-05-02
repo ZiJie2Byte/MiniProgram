@@ -26,7 +26,7 @@ const LIST_DATA = [
     {
         id: 1,
         name: "scroll-view",
-        url: "/pages/components/scrollview"
+        url: "/pages/components/scrollview/index"
     },
     {
         id: 2,
